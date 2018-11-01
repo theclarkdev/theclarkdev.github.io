@@ -327,14 +327,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-cover {
   height: 900px;
   background-size: cover;
-  background-position: center center;
+  background-position: left;
   background-repeat: no-repeat;
   position: relative;
   float: left;
   width: 100%;
 }
 .gtco-cover a {
-  color: #17B794;
+  color: rgb(29, 43, 83);
 }
 .gtco-cover a:hover {
   color: white;
@@ -1487,7 +1487,7 @@ form label {
   width: 33.33%;
   float: left;
   padding: 30px;
-  background:  rgb(39, 64, 133);
+  background:  rgb(39, 64, 133) !important;
   position: relative;
   text-align: center;
 }
@@ -1514,7 +1514,7 @@ form label {
   height: 90px;
   margin: 0 auto 10px auto;
   position: relative;
-  background: rgb(90, 109, 160);
+  background: rgb(90, 109, 160) !important;
   top: -3em;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1566,7 +1566,7 @@ form label {
   position: absolute;
   top: -50px;
   content: "";
-  background: #15a585;
+  background:  rgb(39, 64, 133);
   height: 50px;
   width: 100%;
   left: 0;
@@ -1580,7 +1580,7 @@ form label {
   position: absolute;
   bottom: -30px;
   content: "";
-  background: #15a585;
+  background:  rgb(39, 64, 133);
   height: 30px;
   width: 100%;
   left: 0;
@@ -1901,3 +1901,11 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+td {
+  padding:5px;
+}
+
+td .align-left{
+  text-align: left;
+}
