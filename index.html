@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Get to know Clark Javier through his online porfolio." />
 	<link rel="shortcut icon" href="images/code.png">
+	<meta name="image" content="images/code.png" />
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
 	-->
@@ -63,9 +64,10 @@
 		<div class="overlay1"></div>
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-right">
+				<div id="intro" class="col-md-12 col-md-offset-0 text-right">
 					<div class="display-t">
 						<div class="display-tc">
+							<img class="animate-box" data-animate-effect="fadeInUp" src="images/code-white.png" style="height:200px;width:200px;" >
 							<h1 class="animate-box" data-animate-effect="fadeInUp">I am <b>Clark Javier</b></h1>
 							<h2 class="animate-box" data-animate-effect="fadeInUp">An Aspiring Developer</h2>
 						</div>
@@ -123,7 +125,7 @@
 						<h3><b>Languages</b></h3>
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2" style="align-items:center;">
-								<table id="lang-tab;e" style="width:100%; color:white; text-align:left;table-layout:fixed;">
+								<table style="width:100%; color:white; text-align:left; table-layout:fixed;">
 									<tr>
 										<td class="align-left">
 											Java
@@ -226,69 +228,83 @@
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
 						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-color: rgb(29, 43, 83); "> 
-							<a href="#" class="">
+							<a class="">
 								<div class="case-studies-summary">
 									<span>Assistant Team Leader</span>
 									<h2>BenchED</h2>
 									<p>A Student Academic Progress Tracker in Mathematics using Bayesian Knowledge Tracing</p>
-									<h6><b>IN PROGRESS</b></h6>
+									<div class="row">
+										<div class="col-sm-4"><h6><b>IN PROGRESS</b></h6></div>
+										<div class="col-sm-8"><h6 style="text-align:right"><b>HTML, CSS, JavaScript, Python - Django</b></h6></div>
+									</div>
 								</div>
 							</a>
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-color:rgb(53, 81, 156); ">
-							<a href="#" class="">
+							<a class="">
 								<div class="case-studies-summary">
 									<span>Team Leader</span>
 									<h2>Arduino Pet Feeder</h2>
 									<p>An automatic pet feeder integrated with Arduino that runs on a timer and automatically drops pet food when a certain time is reached. </p>
-									<h6><b>2018</b></h6>
-									
+									<div class="row">
+										<div class="col-sm-4"><h6><b>2018</b></h6></div>
+										<div class="col-sm-8"><h6 style="text-align:right"><b>Arduino, C</b></h6></div>
+									</div>
 								</div>
 							</a>
 						</li>
 
 
 						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-color:rgb(53, 81, 156); ">
-							<a href="#" class="">
+							<a class="">
 								<div class="case-studies-summary">
 									<span>Developer</span>
 									<h2>E-Registration System for the AUF University Student Council</h2>
 									<p>An electronic registration system used for the attendance monitoring of students during activities held by the various student councils of AUF.</p>
-									<h6><b>2018</b></h6>
-									
+									<div class="row">
+										<div class="col-sm-4"><h6><b>2018</b></h6></div>
+										<div class="col-sm-8"><h6 style="text-align:right"><b>Visual Basic, Access</b></h6></div>
+									</div>
 								</div>
 							</a>
 						</li>
 						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-color:rgb(29, 43, 83); ">
-							<a href="#" class="">
+							<a class="">
 								<div class="case-studies-summary">
 									<span>Developer</span>
 									<h2>Automated Raffle Draw System for AUF Medical Center and AUF-USC</h2>
 									<p>A raffle draw system used during events of AUF Medical Center and the University Student Council which randomly selects a number from a pool of entries then displays the winner.</p>
-									<h6><b>2017</b></h6>
-									
+									<div class="row">
+										<div class="col-sm-4"><h6><b>2017</b></h6></div>
+										<div class="col-sm-8"><h6 style="text-align:right"><b>Visual Basic, Access</b></h6></div>
+									</div>
 								</div>
 							</a>
 						</li>
 
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-color: rgb(29, 43, 83); "> 
-							<a href="#" class="">
+							<a class="">
 								<div class="case-studies-summary">
 									<span>Assistant Team Leader</span>
 									<h2>Sprout: A Social Media Website</h2>
 									<p>A social media website project capable of adding stories to the timeline and connect with your friends (or buds, as we refer to them).</p>
-									<h6><b>2016</b></h6>
-									
+									<div class="row">
+										<div class="col-sm-4"><h6><b>2016</b></h6></div>
+										<div class="col-sm-8"><h6 style="text-align:right"><b>HTML, CSS, JavaScript, PHP, MySQL</b></h6></div>
+									</div>
 								</div>
 							</a>
 						</li>
 						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-color:rgb(53, 81, 156); ">
-							<a href="#" class="">
+							<a class="">
 								<div class="case-studies-summary">
 									<span>Co-developer</span>
 									<h2>Coco Mart Inc.: Database System</h2>
 									<p>A basic Point-of-Sales (POS) system which utilizes SQL commands and calculates total cost of purchase for a buyer. </p>
-									<h6><b>2016</b></h6>
+									<div class="row">
+										<div class="col-sm-4"><h6><b>2016</b></h6></div>
+										<div class="col-sm-8"><h6 style="text-align:right"><b>Java, Access</b></h6></div>
+									</div>
 								</div>
 							</a>
 						</li>
