@@ -1909,3 +1909,7 @@ td {
 td .align-left{
   text-align: left;
 }
+
+#software-table td{
+  height:100px;
+}
